@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.outer-container{
+    border: 3px black solid;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+/* her vælges et html element */
+header{
+    background-color: bisque;
+    overflow: auto;
+    position: relative;
+}
+
+
+
+/* her vælges et id*/
+#logo{
+    max-width: 100px;
+height: auto;
+position: absolute;
+top: 10px;
+left: 10px;
+}
+
+@media screen and (max-width: 620px) {
+    #logo{
+        /* display: none; */
+        position: relative;
+        margin: 35%;
+    }
+}
+
+#logo-title{
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    font-family: "Bebas Neue";
+    letter-spacing: 6px;
+
+}
+
+nav{
+    text-align: center;
+    background-color: white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+
+nav ul li{
+    display: inline;
+font-family: "Bebas Neue";
+font-size: 36px;
+padding-right: 40px;
+
+}
+
+
+nav ul li:hover{
+    color: hotpink
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* intro area */
+
+.intro-container{
+    background-color: khaki;
+    overflow: auto;
+
+}
+.image-container{
+max-width: 600px;
+margin: 0;
+float: left;
+box-sizing: border-box;
+padding: 20px;
+
+}
+
+.intro-image{
+max-width: 100%;
+height: auto;
+border-radius: 50%;
+border: solid 7px black;
+box-sizing: border-box;
+}
+
+.intro-text{
+    max-width: 600px;
+    float: left;
+    box-sizing: border-box;
+    padding: 3%;
+}
+
+
+footer{
+    background-color: bisque;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 2px solid black;
+}
+footer p {
+    margin: 0%;
+    text-align: center;
+}
+
+
+/* gallety area */
+
+
+.gallery-container{
+    background-color: khaki;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.gallery-image{
+    width: 25%;
+    height: 200px;
+    float: left;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: 3px solid black;
+    outline-offset: -10px;
+}
+
+
+@media screen and (max-width: 720px) {
+    .gallery-image{
+        width: 50%;
+    }
+}
+.about-container{
+    background-color: khaki;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+ }
